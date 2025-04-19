@@ -169,8 +169,30 @@ The server IP should match the machine running the server.
 - Communication Protocol: TCP/IP
 - GUI Framework: Tkinter (Phase 4)
 
-<pre> ```📁 Project Structure PhaseFour/ ├── domain/ │ └── entities/ │ └── message.py # Message entity logic ├── application/ │ └── use_cases/ │ └── chat_use_case.py # Message processing logic ├── infrastructure/ │ └── network/ │ ├── server_socket.py # Multithreaded server socket logic │ └── client_socket.py # Client socket implementation ├── interface/ │ ├── cli/ │ │ ├── server_cli.py # Server CLI interface │ │ └── client_cli.py # Client CLI (legacy fallback) │ └── gui/ │ └── chat_client_gui.py # GUI chat client ├── main.py # Entry point to run server or client └── README.md # Project documentation ``` </pre>
+## 📁 Project Structure
+
+```
+PhaseFour/
+├── domain/
+│   └── entities/
+│       └── message.py         # Message entity logic  
+├── application/
+│   └── use_cases/
+│       └── chat_use_case.py   # Message processing logic  
+├── infrastructure/
+│   └── network/
+│       ├── server_socket.py   # Multithreaded server socket logic  
+│       └── client_socket.py   # Client socket implementation  
+├── interface/
+│   ├── cli/
+│   │   ├── server_cli.py      # Server CLI interface  
+│   │   └── client_cli.py      # Client CLI (legacy fallback)  
+│   └── gui/
+│       └── chat_client_gui.py # GUI chat client  
+├── main.py                    # Entry point to run server or client  
+└── README.md                  # Project documentation
+```
 
 
-##👨‍💻 Author
+👨‍💻 Author
 Medya Rezaei
