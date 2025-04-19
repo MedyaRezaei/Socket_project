@@ -169,7 +169,7 @@ The server IP should match the machine running the server.
 - Communication Protocol: TCP/IP
 - GUI Framework: Tkinter (Phase 4)
 
-##📁 Project Structure
+📁 Project Structure
 PhaseFour/
 ├── domain/
 │ └── entities/
